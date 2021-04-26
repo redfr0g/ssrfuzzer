@@ -5,6 +5,7 @@
 if [ -z "$1" ]
   then
     echo "Usage: ./ssrfuzz.sh <domain> <burp collaborator link> <parameter list>"
+    exit 1
 fi
 
 # Get args
