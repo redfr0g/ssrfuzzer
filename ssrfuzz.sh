@@ -16,7 +16,7 @@ output="$domain-$(date +'%m-%d-%Y').txt"
 
 #Find known URLs
 echo "[+] Finding URLs for domain $domain"
-gau -b ttf,woff,svg,png,jpg -subs $domain > $output
+gau -b ttf,woff,svg,png,jpg,jpeg -subs $domain > $output
 echo "[+] Found $(wc -l < $output) URLs"
 
 # Grep urls with parameters
