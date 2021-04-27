@@ -2,7 +2,7 @@
 Fuzzer script for finding hidden parameters and SSRF for bug bounty.
 
 ## Requirements
-- [httpx](https://github.com/projectdiscovery/httpx)
+- [curl](https://curl.se/)
 - [gau](https://github.com/lc/gau)
 - [Burp Professional](https://portswigger.net/burp/pro)
 
